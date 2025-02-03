@@ -1,0 +1,98 @@
+.Dayscontainer{
+
+    margin-left: 77px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+     min-height: 400px;
+     min-width: 1110px;
+     margin-top: 30px;
+     overflow-x: hidden;
+     border: 2px solid rgba(224, 224, 224, 0.507);
+     backdrop-filter: blur(5px);
+     background-color: rgba(255, 255, 255, 0.139); 
+     border-radius: 40px;
+     
+  }
+  .days{
+    display: flex;
+    flex-direction: row;
+  }
+  .list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+  }
+  .listitem{
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    margin-left: 40px;
+  }
+  .listitem.active{
+    color: rgb(198, 144, 8);
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: overline;
+    background-color: rgba(255, 255, 255, 0.139); 
+  }
+  .hours {
+    min-height: 300px;
+    max-height: 300px; 
+    width: 100%; 
+   
+    display: flex;
+    flex-direction: column; 
+ overflow-x: auto;
+ overflow-y: auto;
+}
+.conditionbox{
+  display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  
+   
+   
+}
+  .perhour{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+    margin-bottom: 0px;
+    border: 2px solid rgba(224, 224, 224, 0.507);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.139); 
+  }
+  .time{
+    margin-left: 170px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .icon2{
+    margin-left: 190px;
+    height: 170px;
+    width: 170px;
+  }
+  .text2{
+    margin-left: 170px;
+  }
+  .tempbox2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 300px;
+  }
+
+  .hourtemp{
+    margin-top: 90px;
+    font-size: 55px;
+  }

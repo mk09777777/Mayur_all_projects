@@ -1,0 +1,62 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 40px;
+    width: 40px;
+}
+h1{
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.input{
+    margin-top: 10px;
+}
+.inputbox{
+    font-family: sans-serif;
+    font-size:x-large;
+    margin-left: 50px;
+    height: 40px;
+    width: 360px;
+
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.add{
+    margin-left: 130px;
+    font-family: sans-serif;
+    font-size: large;
+    height: 40px;
+    width: 90px;
+}
+.addimg{
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+h2{
+    margin-left: 30px;
+}
+.listbox{
+    overflow-y: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.list{
+    font-family: sans-serif;
+    font-size: large;
+}
