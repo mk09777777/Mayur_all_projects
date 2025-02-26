@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "319761774338",
+    "project_id": "cookbook-d20e9",
+    "storage_bucket": "cookbook-d20e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319761774338:android:a26cf413a97a4a64bd341b",
+        "android_client_info": {
+          "package_name": "com.cookbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIevDC6XZ7ybGKgIPF84beM8sy9vBpOeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
